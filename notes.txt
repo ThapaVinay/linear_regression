@@ -1,0 +1,43 @@
+			Linear Regression (Coursera)
+
+-> Explanatory variable is the independent variable (predictor)
+-> Response variable is the dependent variable (predicted)
+
+The assosiation between two numerical variables can be :
+a. positive & negative
+b. linear or not
+c. strength -> determined by the scatter
+
+-> Correlation is the linear assosiation between two numerical values
+	# non-linear relationship -> simple association
+
+-> Correlation coefficiant measures the strength of the linear association between two numerical variabes
+
+-> Residuals - is the difference between the observed value and the predicted value
+	# underestimate - predicted value is less (positive)
+	# overestimate - predicted value is more (negative)
+
+-> slope - for each unit increase in x, y is expected to be higher/lower on average by the slope.
+-> intercept - when x=0, y is expected to be equal to the intercept
+-> Least square line - line that minimizes the sum of squares of the residuals.
+	# If the data shows a leaner relationship between two variables, the line that best fits this linear relationship is known as a 
+	least-squares regression line
+
+
+-> Extrapolation - Applying a model estimate to values outside the realm of the original data
+
+-> Outliers - abnormal values in a dataset 
+	1. Leverage outliers - that does not affect the linear squared line
+	2. Influencial outliers - that does affect the linear squared line 
+
+
+
+-> R square method is used to calculate the fitness of the regression line.
+	If the value of R = 1 then the regression lines predicts y accurately. So R should be more close to 1.
+	If R is like 0.02 then the actual points are very far away from the predicted points and we have a lot of outliers.
+
+
+
+
+	
+ 
