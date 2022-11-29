@@ -18,7 +18,7 @@ while(1)
     x_test <- c(x)
     y_test <- c(y)
     l = length(data$Years.Of.Experience)   # gives the number of rows 
-    rand = sample(l,as.numeric((l*2/3)),replace = FALSE) # will select 3 elements from the range(0,6) without repeating
+    rand = sample(l,as.numeric((l*2/3)),replace = FALSE) # will select l elements from the range(0,6) without repeating
     x_train <- c()
     y_train <- c()
     x_test <- x_test[-rand]

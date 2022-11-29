@@ -3,7 +3,7 @@ print(data)
 
 x <- data$Years.Of.Experience
 y <- data$Salary
-
+print(x)
 
 relation <- lm(y~x)
 print(relation)

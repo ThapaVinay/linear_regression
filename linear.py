@@ -56,11 +56,6 @@ while(True):
             n1 += ((x[i] - mean_x) * (y[i] - mean_y))
             n2 += (x[i] - mean_x)**2
         m = n1/n2
-
-        print(x)
-        print(y)
-        print(n1)
-        print(n2)
         
         # y = mx+c
         # mean_y = m(mean_x) + c
